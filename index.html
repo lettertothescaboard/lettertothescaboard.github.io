@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Open Letter to the SCA Board of Directors</title>
+<style>
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+:root {
+  --bg: #f0ead8;
+  --white: #ffffff;
+  --text: #1a1a1a;
+  --text-mid: #444;
+  --text-muted: #666;
+  --border: #ddd;
+  --accent: #5c3a1e;
+  --radius: 10px;
+  --sidebar-width: 200px;
+  --font: Verdana, Arial, sans-serif;
+}
+
+html { scroll-behavior: smooth; }
+
+body {
+  background: var(--bg);
+  color: var(--text);
+  font-family: var(--font);
+  font-size: 15px;
+  line-height: 1.75;
+}
+
+.layout {
+  display: flex;
+  gap: 1.5rem;
+  max-width: 1020px;
+  margin: 2rem auto;
+  padding: 0 1.25rem;
+  align-items: flex-start;
+}
+
+.sidebar {
+  width: var(--sidebar-width);
+  flex-shrink: 0;
+  position: sticky;
+  top: 1.5rem;
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  padding: 1rem;
+  font-size: 12.5px;
+}
+
+.sidebar p.sidebar-label {
+  font-size: 11px;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--text-muted);
+  margin-bottom: 0.6rem;
+}
+
+.sidebar a {
+  display: block;
+  color: var(--accent);
+  text-decoration: none;
+  padding: 0.3rem 0;
+  border-bottom: 1px solid #f0f0f0;
+  line-height: 1.4;
+}
+.sidebar a:last-child { border-bottom: none; }
+.sidebar a:hover { text-decoration: underline; }
+
+.main { flex: 1; min-width: 0; }
+
+.card {
+  background: var(--white);
+  border-radius: var(--radius);
+  border: 1px solid var(--border);
+  padding: clamp(1.5rem, 4vw, 3rem);
+  margin-bottom: 1.25rem;
+}
+
+.letter p { margin-bottom: 1.1em; }
+.letter p:last-child { margin-bottom: 0; }
+
+.letter .salutation {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 1.1em;
+}
+
+.letter h2 {
+  font-size: 20px;
+  font-weight: normal;
+  margin: 2rem 0 0.8rem;
+  color: var(--text);
+}
+
+.sig-header {
+  display: flex;
+  align-items: baseline;
+  gap: 1rem;
+  margin-bottom: 1.2rem;
+  flex-wrap: wrap;
+}
+.sig-header h2 { font-size: 20px; font-weight: bold; }
+.sig-count { font-size: 12.5px; color: var(--text-muted); }
+
+.sig-list { list-style: none; }
+.sig-list li { padding: 0.7rem 0; border-bottom: 1px solid #f0f0f0; }
+.sig-list li:last-child { border-bottom: none; }
+
+.sig-main { font-size: 14.5px; color: var(--text); }
+.sig-mka { font-size: 12.5px; color: var(--text-mid); margin-top: 2px; }
+.sig-comment {
+  font-size: 13px;
+  color: var(--text-muted);
+  font-style: italic;
+  margin-top: 4px;
+  padding-left: 1rem;
+  border-left: 2px solid #e0e0e0;
+  word-break: break-word;
+}
+
+.sig-loading, .sig-error {
+  font-style: italic;
+  color: var(--text-muted);
+  padding: 0.5rem 0;
+}
+
+.sign-intro { font-size: 13.5px; color: var(--text-muted); margin-bottom: 1.2rem; }
+
+.form-wrap { border-radius: 6px; overflow: hidden; border: 1px solid var(--border); }
+.form-wrap iframe { width: 100%; display: block; border: none; }
+
+@media (max-width: 680px) {
+  .layout { flex-direction: column; }
+  .sidebar { width: 100%; position: static; }
+}
+</style>
+</head>
+<body>
+
+<div class="layout">
+
+  <nav class="sidebar" aria-label="Page sections">
+    <p class="sidebar-label">Jump to</p>
+    <a href="#intro">Introduction</a>
+    <a href="#grievances">Our grievances</a>
+    <a href="#not-asking">What we are not asking</a>
+    <a href="#conclusion">Conclusion</a>
+    <a href="#signatures">Signatures</a>
+    <a href="#sign">Sign the letter</a>
+  </nav>
+
+  <div class="main">
+    <article class="card letter">
+
+      <h2 id="intro">Introduction</h2>
+
+      <p class="salutation">Dear the Board of Directors of the SCA,</p>
+
+      <p>We are writing to ask that you provide guidance to the Crowns of the Knowne Worlde that court recognitions, awards and tokens must be given for work relating to the SCA or the SCA's mission (such as participation in SCA events, historical research, medieval arts and crafts, service to the organization, or participation in SCA combat).</p>
+
+      <p>This letter is inspired by the existence of recognitions that are purely for members of the modern, mundane military or veterans of such - which we do not believe are appropriate for SCA Crowns to award in court.</p>
+
+      <p>We oppose these recognitions for several different reasons, and as we discussed and drafted this open letter, we again and again heard: "You must present this perspective to the Board and use that argument in your letter, and you'll have a chance. If you sound like you're saying this other thing, you'll only hurt your case." Unfortunately, nobody actually agrees on which perspective is the one to listen to. Therefore we have listed the myriad reasons why we find these awards inappropriate, and we ask that you read with an open mind and heart to the diversity of voices which find themselves united in opposition to this practice.</p>
+
+      <p>Such awards directly, by their nature, make members of the populace feel unwelcome, uncomfortable, discriminated against, or morally unable to support their Crowns; you may agree with some reasons why and disagree with others, but the core of the matter is that nobody in the SCA should have to feel that way.</p>
+
+      <h2 id="grievances">Our grievances</h2>
+
+      <p>Some of us feel that these awards are <strong>obtrusively modern</strong>. We can read at home about people being blown up in Iran, but when we come to an SCA event, we wish to turn our phones off and forget about the horrors for a few scant hours. The Crown's words in court should be the center of the magic, and not something we have to avoid for fear of obtrusively modern - and potentially upsetting or even triggering - references.</p>
+
+      <p>Some of us feel that these awards <strong>create unfairness by breaking the general rule of awards not being given for non-SCA activities</strong>. If an Olympian archer or fencer joins the SCA and asks why they are not made a Mark or Master of Defence on their first day, or a mundane medical researcher who has invented new cancer treatments asks where their Pelican scroll is, we can say: "You don't get awards in the SCA for activities outside the SCA - you have to participate in the organization." If we break this rule for the military, we inevitably have to ask why mundane firefighters cannot be knighted for their valour. It is unfair not to have the same rules for everyone.</p>
+
+      <p>Some of us feel that it <strong>devalues the award system, or leads to discomfort and the crossing of personal boundaries, for game-side and non-game-side to mix at all</strong>; it would also be inappropriate to award an SCA court honor for a student who got good grades or a knight who earned a promotion in their day job. The Crown should not pass judgement upon the mundane lives of Their subjects - even positive judgement. It may create awkward feelings of pressure or performance anxiety, of ingame rank and power pushing into real life or seeking control of real life, or of ingame achievements feeling devalued compared to real-world achievements. People should not feel that their loyalty to kingdom or Crown or their desire to earn awards in the SCA is pushing them towards any real-world decision or career choice.</p>
+
+      <p>Some of us feel that <strong>these awards are, by nature, exclusionary.</strong> The categories of people barred from military service - such as immigrants, transgender people and disabled people - are not arbitrary groups; they are groups that also face marginalisation in many other aspects of society. Transgender people and non-citizens are particularly harmed by a strategy of portraying them as lesser by barring or eliminating them from the military while simultaneously lionizing and glorifying the military. Recently many honourable transgender soldiers in the USA were discharged purely for being transgender. If a career in the military is the only career worth honoring as "service", then denying these groups access to the military works to deny them access to opportunities to be seen as patriotic or loyal - which allows bad actors to further smear these groups as unpatriotic, unfit or disloyal. Affirming that other careers are no less honourable or dignified than military jobs is an important way to stand with these communities.</p>
+
+      <p>Some of us feel that <strong>these awards are inappropriately political or partisan</strong>. In some cultures, it may be normal to frequently honor and glorify the military - e.g. by offering them discounts in coffee shops, early boarding on airplanes, or mentions in politicians' speeches. In other cultures, it may be more normal to honor and glorify other groups - e.g. offering discounts to all first responders, applauding for doctors and nurses, or politicians speaking in support of diplomats and aid workers. This is not only a difference between countries and states, but also a generational gap. For those of us who consider it more normal to honor doctors, diplomats, all emergency responders, or all essential workers, it comes across as right-wing to praise the military and only the military. When the Crown makes a partisan political statement from Their thrones, many view it as the official stance of the kingdom, which makes some of us feel as though those who disagree aren't welcome.</p>
+
+      <p>For others, <strong>their identity makes them feel the awards are politically insensitive</strong> (even if they might be non-political for some others in the audience). A non-American attending an court held in America may feel it is inappropriate to ask them to support American troops - just as it would be inappropriate for them to ask their American subjects to support their own country of citizenship if they were to win Crown. While only eight kingdoms span across multiple real-world countries, every kingdom ought to be open to anyone. No matter if you are a patriotic American or a refugee from Iran or Iraq or Afghanistan or Vietnam or Cambodia, an Israeli-American or a Palestinian-American, a descendant of Manhattan Project researchers or a descendant of Hiroshima survivors, an ethnic Kosovo Serb or Bosnian or Croat, you should feel equally welcome in courts from An Tir to Atlantia to Drachenwald… which is impossible while taking any official stance on one member's participation in an institution which may have bombed the other's family.</p>
+
+      <p>Some of us feel that it is <strong>nearly impossible to handle these awards in a sensitive way.</strong> No matter how much we may be assured, "Don't worry - the Crown doesn't intend to communicate that They support the Iran war specifically, or that They commanded everyone to pray for the troops, or that the troops of a particular nation were <em>our</em> troops, or that They were asking the entire kingdom to support the USA over other countries. They very carefully worded Their statement to only say that They personally prayed for Their troops' safe return," - the reality is that a newcomer at the back of court may be hearing only one word in three, and it is very difficult to avoid the possibility that they will feel uncomfortable or interpret the Crown's statement as a dogwhistle. An experienced player may have the connections necessary to ask and clarify, "The Crown didn't really say They support that bombing, did They?" - but a newcomer is less likely to feel comfortable asking and more likely to simply not return to the SCA.</p>
+
+      <p>Some of us have concerns about other elements of sensitivity; the <strong>timing, name, or manner of giving out such awards can easily cause offense.</strong> The timing of awards - such as Atlantia introducing the first Sea Wall just as the unpopular Iran War was starting - can create the impression of support for a particular government or action. Names such as "Courage of An Tir" imply that conscientious objectors are not courageous. Specifically calling on American troops and veterans is inherently political, while calling on all troops and veterans brings up the awkward possibility of calling veterans from opposing sides of the same war. Some veterans may feel difficult feelings about their service - including trauma, shame or regret - which the SCA is a respite from, and they may be uncomfortable receiving a token from their in-game Crown. And even if the Crown is careful not to explicitly state that They order or require others to support the military, a herald is likely to follow the script and command the populace to, "Give three cheers for…" or, "Call vivat for…" the award.</p>
+
+      <p>For some of us, these awards <strong>break the fundamental compact between Crown and populace</strong>. The SCA is a game in which we can play in a fantasy world, where we pretend to support our fantasy monarchs and to march to war singing nationalist songs about our fantasy kingdoms, and none of that ought to ever imply that we'd support real-world monarchy, real-world war or real-world nationalism. In real life we might be ardent supporters of republican democracy, pacifism, international exchange and modern technologies. We agree to treat the winners of a tournament as an authority - our Crown - and in exchange we expect Them to uphold the Dream and to refrain from shattering that illusion. A Crown who openly supports a real-world government or real-world military or real-world war or real-world monarchy from Their thrones in court is forcing many of us to choose between our oaths to Crown and Kingdom and our real-world fundamental values. An ardent pacifist should be welcome in the SCA and should never have to choose to not support a Crown they are sworn to because that Crown is using Their throne and title to make real-world pro-military statements. The Crown should uphold the fantasy - not make it impossible.</p>
+
+      <p>For some of us, it is a concern about the fundamental principle that <strong>the Crown should not discriminate</strong>. The vast majority of people feel that Crowns should never be allowed to say, "we'd like to recognize all Republicans/Democrats - please come up and get an award if you voted for my preferred party", or "we'd like to recognize all Christians - please come up and get an award if you go to church regularly" or "we'd like to give a token to all white people". While military service is not the same thing as an ethnic or religious group, there can be specific jobs which are strongly associated with particular religions (preachers, imams and rabbis would be an obvious example). There are groups who believe military service is glorious and other groups who believe it is morally wrong; recognizing specifically the military excludes Quakers, just as some religious people would feel their beliefs were attacked by a Crown who created an award specifically for divorce lawyers or specifically for those doctors who perform abortions (while others genuinely believe those people provide an essential service to society). Note that pacifism - and belief that serving in any mundane military is wrong - can be an important religious belief for Buddhists, Jains, Quakers, Anabaptists, Brethren, Jehovah's Witnesses and others; all of these people may feel unable to participate in court if promoting or celebrating the military is a key part of court. Creating an award for veterans is the Crown using the voice of the Kingdom - the voice that is law - to say that those who believe military service is praiseworthy are correct, and the religious beliefs of others are wrong.</p>
+
+      <p>Some of us feel that <strong>these awards go against Corpora</strong> by failing to promote a safe and respectful environment for all participants, failing to value and respect the worth and dignity of all individuals, and failing to maintain a harassment-free environment. Those who feel that they cannot participate in court, because their honor does not allow them to participate in a pro-military or pro-war political statement, are unable to participate in a key element of the SCA; they may miss chances to grow as heralds, receive awards or see their friends getting awards, or contribute service to a reign. Those who speak up against glorifying the military may face harassment, have faced threats of retribution on the battlefield, and may even - if their stance is shared on social media - be at risk of real world consequences from job loss to deportation, in light of current threats to free speech in America.</p>
+
+      <p>While we are all necessarily comfortable with the idea that the Crown may make award decisions we disagree with, some of us feel <strong>there is a deep difference between agreeing with the principle behind an award and agreeing with its implementation</strong>. We may not agree that a certain gentle's art is worth a Laurel on the day they receive it, but - as voluntary members of a Society organised around recreating historical arts and skills - we agree that artwork is a worthy pursuit which it is rightful to recognise. Someone who believes artwork is morally wrong is unlikely to see themselves in the SCA's mission. A Crown creating an award for something which some subjects may believe is inherently morally wrong is a Crown imposing Their own values on a populace who did not sign up for that.</p>
+
+      <p>Some of us are simply <strong>uncomfortable with anything that glorifies war</strong> in the current modern environment.</p>
+
+      <p>For some of us, the idea that <strong>others are made to feel uncomfortable and unwelcome</strong> by these awards is <strong>enough to oppose them - even if we are personally fine with them</strong>. We would prefer to see people taking real, material steps to support veterans - such as personally donating to charities which support homeless people or provide PTSD treatment - rather than engaging in statements that hurt our fellow SCAdians to no actual benefit.</p>
+
+      <p><strong>Despite our many different reasons for opposing these awards, we all agree that they are inappropriate.</strong></p>
+
+      <h2 id="not-asking">What we are not asking</h2>
+
+      <p>We are <strong>not</strong> asking for Crowns to be removed or sanctioned for giving out such awards; we assume Their intention was to honor a group They may personally like or feel an affinity with, and They may not have thought about the impact on others.</p>
+
+      <p>We are <strong>not</strong> asking for any tokens or medallions to be given back - we do not blame the recipients. To bring any shame upon the recipients of such awards would be just as inappropriate as the giving of the award. It is enough that new awards should not be created or given, and existing awards should not be listed on the OP.</p>
+
+      <p>We do <strong>not</strong> want to exclude people with military careers from the SCA. Many people work in jobs which others may disagree with - from weapons manufacturing, to cigarette marketing, to policing, to regulation, to activism or lobbying, to partisan journalism, to sex work, to coding gambling apps, to selling alcohol, to roles in health insurance. None of these people should be excluded from the SCA based solely on their career choice. Though it would be obviously inappropriate for a Crown to create an award specifically to recognise those who work in cigarette marketing, it would just as obviously be inappropriate to require that every member work in an industry their local group approves of.</p>
+
+      <p>We are <strong>not</strong> asking for a ban on all "political" awards. A point of debate that repeatedly came up among the drafters of this letter, and those we have spoken to, is the question of whether Crowns should be making partisan political statements from Their thrones at all. While some of us feel They should not, others worry that a "no politics" policy could be maliciously misinterpreted by those who object to completely legitimate activities - like giving awards to those who champion gender inclusivity in fighting, using sites like churches or lodges owned by political or religious groups, giving service awards to those who make the SCA more accessible, giving A&amp;S awards for research into period militaries and period religion, or encouraging expansion of African and Asian studies. <strong>None of these things would go against our proposed guidance that awards and other honors must be given for SCA-relevant work, since all of these activities relate directly to the SCA.</strong></p>
+
+      <p>There are some political stances that cannot coexist; it is very difficult to host an inclusive event if racists and sexists are allowed to make minorities feel uncomfortable or excluded. Because we cannot coexist with those with such beliefs, it is perfectly appropriate for the kingdom to want to exclude them, and for the Crown to make statements that make the kingdom's stance clear. There are other stances that can coexist; we can accommodate both vegetarians and meat-eaters in the same feast, we can expect people to civilly disagree about whether rent control or upzoning is a better policy for creating affordable housing, and we can celebrate a Buddhist making music with a Sikh. These groups' ability to coexist is threatened if the Crown makes vegetarianism into kingdom policy, holds mandatory religious ceremonies, or dictates how Their subjects should vote on housing developments. While people may not all agree on exactly who can or can't coexist, we firmly believe that the SCA should be welcoming to pacifists, and it is unacceptable to treat anti-militarism or anti-war views with the same disregard that we rightfully treat discriminatory views. <strong>It ought to be possible for a military veteran and a lifelong anti-war activist to be sworn to the same Crown without that Crown ever taking an official stance on which of their mundane careers was more honourable.</strong> Beyond that, the question of exactly what the limits should be on Crowns' political speech is outside the scope of this letter.</p>
+
+      <h2 id="conclusion">Conclusion</h2>
+
+      <p>For the many reasons given above, we would like SCA Crowns to refrain from giving awards or tokens to Their subjects purely for choosing a mundane military career, and refrain in general from using Their thrones to make pro-military or pro-war statements.</p>
+
+      <p>While this goal could be accomplished in many ways (eg. through changes to kingdom laws, by treating such awards as religious discrimination, or through heralds refusing to participate), this letter asks the Board and President to provide guidance to Crowns that, when They speak from Their thrones in court, They should restrict themselves to giving awards/tokens/honors only for work relevant to the SCA. This allows the Board to tackle this issue without dealing with thorny questions about what is political and when Crowns should engage in politics.</p>
+
+      <p><strong>If you agree that Crowns should refrain from giving out awards, tokens or honors purely for mundane military service (or other activities unrelated to the SCA), please consider adding your SCA name and kingdom to the letter below.</strong> You may optionally include your title, mundane name, local group, position or office, or a short statement to clarify your stance on any point. Your email is optional, and will never be displayed; we collect it only in case we need to verify that you didn't sign on behalf of somebody without their consent.</p>
+
+    </article>
+
+    <section class="card" id="signatures">
+      <div class="sig-header">
+        <h2>Signed</h2>
+        <span class="sig-count" id="sig-count"></span>
+      </div>
+      <ul class="sig-list" id="sig-list">
+        <li class="sig-loading">Loading signatures…</li>
+      </ul>
+    </section>
+
+    <section class="card" id="sign">
+      <h2 style="font-size:20px;font-weight:bold;margin-bottom:0.8rem;">Add your name</h2>
+      <p class="sign-intro">SCA name and kingdom are required. Title, local group or office, mundane name, and a short comment are all optional. Email is optional and will never be displayed.</p>
+      <div class="form-wrap">
+        <iframe
+          src="https://docs.google.com/forms/d/e/1FAIpQLSeBUVirS31sezV5T0ImHFQRU1JXJj1q7qkeXQqDWgHJMPsInw/viewform?embedded=true"
+          height="1400"
+          title="Sign the open letter">
+          Loading form…
+        </iframe>
+      </div>
+    </section>
+
+  </div>
+</div>
+
+<script>
+const SHEET_CSV = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vQPn6ZsTWj6zZuyzjI0M5a34LEBr5ewGbDneiv1crViSc7L9ZsTnFqU1Zoh2Nvz0hL-DGSPTUQVKfka/pub?output=csv';
+
+function parseCSV(text) {
+  const s = text.replace(/\r\n/g, '\n').replace(/\r/g, '\n');
+  const rows = [];
+  let i = 0;
+
+  while (i <= s.length) {
+    const fields = [];
+    while (true) {
+      let f = '';
+      if (i < s.length && s[i] === '"') {
+        i++; // skip opening quote
+        while (i < s.length) {
+          if (s[i] === '"' && s[i + 1] === '"') { f += '"'; i += 2; }
+          else if (s[i] === '"') { i++; break; } // closing quote
+          else { f += s[i++]; }
+        }
+        while (i < s.length && s[i] === ' ') i++; // skip space after closing quote
+      } else {
+        while (i < s.length && s[i] !== ',' && s[i] !== '\n') f += s[i++];
+        f = f.trim();
+      }
+      fields.push(f);
+      if (i >= s.length || s[i] === '\n') { i++; break; }
+      i++; // skip comma
+    }
+    if (fields.some(f => f)) rows.push(fields);
+  }
+
+  if (rows.length < 2) return [];
+  const headers = rows[0];
+  return rows.slice(1).map(vals => {
+    const row = {};
+    headers.forEach((h, idx) => { row[h] = (vals[idx] != null ? vals[idx] : '').trim(); });
+    return row;
+  });
+}
+
+function esc(s) {
+  return s
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&#39;');
+}
+
+function buildSig(row) {
+  const title = row['Title'] || '';
+  const scaName = row['SCA name'] || '';
+  const kingdom = row['Kingdom'] || '';
+  const local = row['Local group and/or officer position'] || '';
+  const mundane = row['Mundane Name'] || '';
+  const comment = (row['Comment'] || '').replace(/[\r\n]+/g, ' ').replace(/\s+/g, ' ').trim();
+  if (!scaName || !kingdom) return null;
+  let name = title ? `${title} ${scaName}` : scaName;
+  let loc = kingdom;
+  if (local) loc += ` — ${local}`;
+  return { mainLine: `${name} (${loc})`, mundane, comment };
+}
+
+async function loadSignatures() {
+  const list = document.getElementById('sig-list');
+  const countEl = document.getElementById('sig-count');
+  try {
+    const res = await fetch(SHEET_CSV, { mode: 'cors' });
+    if (!res.ok) throw new Error('HTTP ' + res.status);
+    const text = await res.text();
+    const rows = parseCSV(text);
+    const sigs = rows.map(buildSig).filter(Boolean);
+    if (sigs.length === 0) {
+      list.innerHTML = '<li class="sig-loading">Error loading signatures.</li>';
+      return;
+    }
+    countEl.textContent = `${sigs.length} signature${sigs.length !== 1 ? 's' : ''}`;
+    list.innerHTML = sigs.map(s => {
+      let html = `<li><div class="sig-main">${esc(s.mainLine)}</div>`;
+      if (s.mundane) html += `<div class="sig-mka">MKA ${esc(s.mundane)}</div>`;
+      if (s.comment) html += `<div class="sig-comment">${esc(s.comment)}</div>`;
+      return html + '</li>';
+    }).join('');
+  } catch(e) {
+    list.innerHTML = '<li class="sig-error">Signatures could not be loaded right now.</li>';
+    console.error('Signature load error:', e);
+  }
+}
+
+loadSignatures();
+</script>
+</body>
+</html>
